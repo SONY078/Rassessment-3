@@ -1,0 +1,111 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        rgb(152, 152, 201) 0%,
+        rgb(232, 157, 170) 60%,
+        rgb(204, 198, 198) 69%,
+        rgb(88, 84, 84) 100%
+    );
+}
+html:hover
+{
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  
+    background: linear-gradient(to right, #2ebf91, #8360c3);   
+}
+h1
+{
+    text-shadow:3px 3px aqua;
+}
+h1:hover
+{
+    background-color: black;
+    color: beige;
+    text-shadow: none;
+   
+}
+#b1
+{
+    width: 280px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 1;
+    filter: blur(0.2px);
+    border-radius: 20px;
+    background-color: rgb(193, 193, 203);
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+#b1:hover
+{
+    background-color: rgb(84, 84, 132);
+    color: white;
+}
+#b2:hover
+{
+    background-color: rgb(84, 84, 132);
+    color: white;   
+}
+#b2
+{
+    width: 280px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 1;
+    filter: blur(0.2px);
+    border-radius: 20px;
+    background-color: rgb(193, 193, 203);
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+#functionBlock
+{
+    width: 500px;
+    height: 300px;
+    padding-top: 60px;
+    padding: 60px 20px 0px 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+}
+#functionBlock:hover
+{
+    background-color: black;
+    color: aqua;
+}
+#classBlock:hover
+{
+    background-color: black;
+    color: aqua;
+}
+#classBlock
+{
+    width: 500px;
+    height: 300px;
+    padding-top: 60px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    right: 190px; 
+}
+#bh
+{
+    text-shadow: none;
+}
+#bh:hover
+{
+    
+    color: aqua;
+    text-shadow: none;
+}
